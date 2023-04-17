@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Add New Campaign</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- Font Awesome CDN -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <!-- Tailwind CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Daisy CDN -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@2.51.5/dist/full.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script
+      src="https://kit.fontawesome.com/d87bad91ac.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <section class="py-6 max-w-[1200px] mx-auto">
+      <div>
+        <div class="flex flex-row">
+          <i class="fa-solid fa-arrow-left m-1"></i>
+          <h1 class="add-new-campaign ml-2">Add New Campaign</h1>
+        </div>
+        <p class="desription my-2">
+          If you have any question or need any assistance you can reach out our
+          customer services in
+          <span class="text-blue-500">Customer Care</span> page
+        </p>
+        <div class="my-4 flex flex-row">
+          <div>
+            <img src="./facebook.png" alt="" class="w-6" />
+          </div>
+          <img src="./instagram (1).png" alt="" class="w-6" />
+          <p class="mx-4 font-bold">Facebook & Instagram</p>
+        </div>
+      </div>
+      <form
+        novalidate=""
+        class="flex flex-col py-6 space-y-6 md:py-0 ng-untouched ng-pristine ng-valid"
+      >
+        <label class="block">
+          <span class="mb-1">Job</span>
+          <select class="block select-field">
+            <option disabled selected>Choose job</option>
+            <option>MERN Stack</option>
+          </select>
+        </label>
+        <label class="block">
+          <span class="mb-1">Title/Name</span>
+          <input
+            type="text"
+            placeholder="Campaign Title/Name"
+            class="block select-field"
+          />
+        </label>
+        <label class="block">
+          <span class="mb-1">Description</span>
+          <textarea
+            type="text"
+            placeholder="Campaign Title/Name"
+            class="block textarea textarea-bordered textarea-lg textarea-field"
+          ></textarea>
+        </label>
+      </form>
+      <div class="py-6 max-w-[648px]">
+        <h2 class="py-2">Choose a package</h2>
+        <div class="grid grid-cols-1 lg:grid-cols-3">
+          <div class="package-div border text-center">
+            <span
+              class="block text-xs font-medium tracking-widest dark:text-violet-400"
+              >Small</span
+            >
+            <i class="fa-solid fa-wrench my-4 text-blue-500"></i>
+            <h2 class="text-xl font-semibold tracking-wide">$120 USD</h2>
+            <p>7 Days</p>
+          </div>
+          <div class="package-div border text-center">
+            <span
+              class="block text-xs font-medium tracking-widest dark:text-violet-400"
+              >Medium</span
+            >
+            <i class="fa-solid fa-wrench my-4 text-blue-500"></i>
+            <h2 class="text-xl font-semibold tracking-wide">$200 USD</h2>
+            <p>15 Days</p>
+          </div>
+          <div class="package-div border text-center">
+            <span
+              class="block text-xs font-medium tracking-widest dark:text-violet-400"
+              >Large</span
+            >
+            <i class="fa-solid fa-wrench my-4 text-blue-500"></i>
+            <h2 class="text-xl font-semibold tracking-wide">$300 USD</h2>
+            <p>30 Days</p>
+          </div>
+        </div>
+      </div>
+      <button class="flex flex-row items-center button">Place Order</button>
+    </section>
+  </body>
+</html>

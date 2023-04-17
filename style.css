@@ -1,0 +1,81 @@
+* {
+  font-family: "Inter";
+}
+
+.add-new-campaign {
+  width: 944px;
+  height: 24px;
+
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+  color: #18191c;
+  flex: none;
+  order: 1;
+  flex-grow: 1;
+}
+.desription {
+  width: 536px;
+  height: 48px;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #474c54;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.select-field {
+  box-sizing: border-box;
+  width: 648px;
+  height: 40px;
+  background: #ffffff;
+  border: 1px solid #e4e5e8;
+  border-radius: 5px;
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+  color: #767f8c;
+  padding-left: 18px;
+  /* padding-bottom: 16px; */
+}
+.textarea-field {
+  box-sizing: border-box;
+  width: 648px;
+  /* height: 40px; */
+  background: #ffffff;
+  border: 1px solid #e4e5e8;
+  border-radius: 5px;
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+  color: #767f8c;
+  padding-left: 18px;
+  /* padding-bottom: 16px; */
+}
+.package-div {
+  box-sizing: border-box;
+  padding: 16px;
+  gap: 16px;
+  width: 208px;
+  height: 156px;
+  background: #ffffff;
+  border: 1px solid #e4e5e8;
+  border-radius: 4px;
+  order: 0;
+  flex-grow: 0;
+}
+.button {
+  padding: 12px 24px;
+  gap: 12px;
+  width: 139px;
+  height: 48px;
+  background: #0a65cc;
+  border-radius: 3px;
+  color: white;
+}
