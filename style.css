@@ -10,9 +10,6 @@
   font-size: 18px;
   line-height: 24px;
   color: #18191c;
-  flex: none;
-  order: 1;
-  flex-grow: 1;
 }
 .desription {
   font-style: normal;
@@ -27,21 +24,13 @@
   border-radius: 5px;
   order: 1;
   align-self: stretch;
-  flex-grow: 0;
   color: #767f8c;
   padding-left: 18px;
   padding-top: 8px;
   padding-bottom: 8px;
 }
 .textarea-field {
-  box-sizing: border-box;
-  width: 648px;
-  background: #ffffff;
   border: 1px solid #e4e5e8;
-  border-radius: 5px;
-  order: 1;
-  align-self: stretch;
-  color: #767f8c;
   padding-left: 18px;
   padding-top: 12px;
   padding-bottom: 134px;
