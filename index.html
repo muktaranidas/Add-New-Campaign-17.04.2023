@@ -34,7 +34,7 @@
         <p class="desription mt-4 mb-8">
           If you have any question or need any assistance you can reach out our
           customer services in
-          <span class="text-blue-500">Customer Care</span> page
+          <a href="#" class="text-blue-500">Customer Care</a>page
         </p>
         <div class="my-4 flex flex-row">
           <div>
@@ -76,28 +76,37 @@
         <h2 class="py-2">Choose a package</h2>
         <div class="grid grid-cols-1 lg:grid-cols-3">
           <div class="package-div border text-center">
-            <span
-              class="block text-md font-medium tracking-widest dark:text-violet-400"
-              >Small</span
-            >
+            <div class="flex flex-row space-x-10">
+              <input type="radio" name="radio-1" class="radio" />
+              <span
+                class="block text-md text-center font-medium tracking-widest dark:text-violet-400"
+                >Small</span
+              >
+            </div>
             <img src="/small.svg" alt="" class="mx-auto my-4" />
             <h2 class="text-xl font-semibold tracking-wide">$120 USD</h2>
             <p>7 Days</p>
           </div>
           <div class="package-div border text-center">
-            <span
-              class="block text-md font-medium tracking-widest dark:text-violet-400"
-              >Medium</span
-            >
+            <div class="flex flex-row space-x-10">
+              <input type="radio" name="radio-1" class="radio" checked />
+              <span
+                class="block text-md text-center font-medium tracking-widest dark:text-violet-400"
+                >Medium</span
+              >
+            </div>
             <img src="/medium.svg" alt="" class="mx-auto my-4" />
             <h2 class="text-xl font-semibold tracking-wide">$200 USD</h2>
             <p>15 Days</p>
           </div>
           <div class="package-div border text-center">
-            <span
-              class="block text-md font-medium tracking-widest dark:text-violet-400"
-              >Large</span
-            >
+            <div class="flex flex-row space-x-10">
+              <input type="radio" name="radio-1" class="radio" />
+              <span
+                class="block text-md text-center font-medium tracking-widest dark:text-violet-400"
+                >Large</span
+              >
+            </div>
             <img src="/large.svg" alt="" class="mx-auto my-4" />
             <h2 class="text-xl font-semibold tracking-wide">$300 USD</h2>
             <p>30 Days</p>
