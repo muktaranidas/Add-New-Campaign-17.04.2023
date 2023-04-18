@@ -30,12 +30,12 @@
   flex-grow: 0;
   color: #767f8c;
   padding-left: 18px;
-  /* padding-bottom: 16px; */
+  padding-top: 8px;
+  padding-bottom: 8px;
 }
 .textarea-field {
   box-sizing: border-box;
   width: 648px;
-  /* height: 40px; */
   background: #ffffff;
   border: 1px solid #e4e5e8;
   border-radius: 5px;
@@ -43,20 +43,10 @@
   align-self: stretch;
   color: #767f8c;
   padding-left: 18px;
-  /* padding-bottom: 16px; */
+  padding-top: 12px;
+  padding-bottom: 134px;
 }
-.package-div {
-  box-sizing: border-box;
-  padding: 16px;
-  gap: 16px;
-  width: 208px;
-  height: 156px;
-  background: #ffffff;
-  border: 1px solid #e4e5e8;
-  border-radius: 4px;
-  order: 0;
-  flex-grow: 0;
-}
+
 .button {
   padding: 12px 24px;
   gap: 12px;
@@ -65,4 +55,13 @@
   background: #0a65cc;
   border-radius: 3px;
   color: white;
+}
+.package-card:has(input:checked) {
+  border: 2px solid blue;
+}
+.package-card.icon {
+  visibility: hidden;
+}
+.package-card:has(input:checked).icon {
+  visibility: visible;
 }

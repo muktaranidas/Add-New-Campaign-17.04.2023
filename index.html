@@ -57,7 +57,7 @@
           <select
             class="block select-field w-[380px] h-[40px] lg:w-[648px] lg:h-[40px]"
           >
-            <option disabled selected>Choose job</option>
+            <option disabled selected class="">Choose job</option>
             <option>MERN Stack</option>
           </select>
         </label>
@@ -81,11 +81,11 @@
       <div class="py-6 max-w-[648px]">
         <h2 class="py-2 ml-32 lg:ml-0">Choose a package</h2>
         <div class="grid grid-cols-1 lg:grid-cols-3 sm:ml-4 lg:ml-0 gap-2">
-          <div
-            class="package-div border text-center w-[280px] lg:w-full ml-16 lg:ml-0"
+          <label
+            class="package-card border text-center w-[280px] lg:w-full ml-16 lg:ml-0 relative"
           >
-            <div class="">
-              <!-- <input type="radio" name="radio-1" class="radio" /> -->
+            <input type="radio" name="radio-1" class="radio" hidden />
+            <div>
               <span
                 class="block text-md text-center font-medium tracking-widest dark:text-violet-400"
                 >Small</span
@@ -94,35 +94,88 @@
             <img src="/small.svg" alt="" class="mx-auto my-4" />
             <h2 class="text-xl font-semibold tracking-wide">$120 USD</h2>
             <p>7 Days</p>
-          </div>
-          <div
-            class="package-div border text-center w-[280px] lg:w-full ml-16 lg:ml-0"
+            <span class="absolute w-6 h-6 top-0 left-0 bg-blue-600 icon p-2"
+              ><svg
+                width="14"
+                height="10"
+                viewBox="0 0 14 10"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M12.3334 1L5.00008 8.33333L1.66675 5"
+                  stroke="white"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </span>
+          </label>
+          <label
+            class="package-card border text-center w-[280px] lg:w-full ml-16 lg:ml-0 relative"
           >
-            <div class="">
-              <!-- <input type="radio" name="radio-1" class="radio" checked /> -->
+            <input type="radio" name="radio-1" class="radio" hidden />
+            <div>
               <span
                 class="block text-md text-center font-medium tracking-widest dark:text-violet-400"
                 >Medium</span
               >
             </div>
+
             <img src="/medium.svg" alt="" class="mx-auto my-4" />
             <h2 class="text-xl font-semibold tracking-wide">$200 USD</h2>
             <p>15 Days</p>
-          </div>
-          <div
-            class="package-div border text-center w-[280px] lg:w-full ml-16 lg:ml-0"
+            <span class="absolute w-6 h-6 top-0 left-0 bg-blue-600 icon p-2"
+              ><svg
+                width="14"
+                height="10"
+                viewBox="0 0 14 10"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M12.3334 1L5.00008 8.33333L1.66675 5"
+                  stroke="white"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </span>
+          </label>
+          <label
+            class="package-card border text-center w-[280px] lg:w-full ml-16 lg:ml-0 relative"
           >
-            <div class="">
-              <!-- <input type="radio" name="radio-1" class="radio" /> -->
+            <input type="radio" name="radio-1" class="radio" hidden />
+            <div>
               <span
                 class="block text-md text-center font-medium tracking-widest dark:text-violet-400"
                 >Large</span
               >
             </div>
+
             <img src="/large.svg" alt="" class="mx-auto my-4" />
             <h2 class="text-xl font-semibold tracking-wide">$300 USD</h2>
             <p>30 Days</p>
-          </div>
+            <span class="absolute w-6 h-6 top-0 left-0 bg-blue-600 icon p-2"
+              ><svg
+                width="14"
+                height="10"
+                viewBox="0 0 14 10"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M12.3334 1L5.00008 8.33333L1.66675 5"
+                  stroke="white"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </span>
+          </label>
         </div>
       </div>
       <button class="flex flex-row items-center ml-36 lg:ml-0 button">
