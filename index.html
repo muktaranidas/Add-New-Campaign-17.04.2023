@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Add New Campaign</title>
+    <!-- style css -->
     <link rel="stylesheet" href="style.css" />
     <!-- Font Awesome CDN -->
     <link
@@ -19,24 +20,27 @@
       rel="stylesheet"
       type="text/css"
     />
+    <!-- Font Awesome Kit -->
     <script
       src="https://kit.fontawesome.com/d87bad91ac.js"
       crossorigin="anonymous"
     ></script>
   </head>
   <body>
-    <section class="py-6 max-w-[1200px] mx-auto">
+    <section class="max-w-[1200px] mx-auto py-8">
       <div>
         <div class="flex flex-row">
-          <img src="/add.svg" alt="" />
+          <img src="/add.svg" alt="" class="hidden lg:flex" />
           <h1 class="add-new-campaign ml-4">Add New Campaign</h1>
         </div>
-        <p class="desription mt-4 mb-8">
+        <p
+          class="desription mt-4 mb-8 ml-4 lg:ml-0 text-lg lg:text-base w-[400px] lg:w-[536px] lg:h-[48px]"
+        >
           If you have any question or need any assistance you can reach out our
           customer services in
-          <a href="#" class="text-blue-500">Customer Care</a>page
+          <a href="#" class="text-blue-500">Customer Care</a> page
         </p>
-        <div class="my-4 flex flex-row">
+        <div class="my-4 ml-4 lg:ml-0 flex flex-row">
           <div>
             <img src="./facebook.png" alt="" class="w-6" />
           </div>
@@ -48,36 +52,40 @@
         novalidate=""
         class="flex flex-col py-6 space-y-6 md:py-0 ng-untouched ng-pristine ng-valid"
       >
-        <label class="block">
+        <label class="block ml-4 lg:ml-0">
           <span class="mb-1">Job</span>
-          <select class="block select-field">
+          <select
+            class="block select-field w-[380px] h-[40px] lg:w-[648px] lg:h-[40px]"
+          >
             <option disabled selected>Choose job</option>
             <option>MERN Stack</option>
           </select>
         </label>
-        <label class="block">
+        <label class="block ml-4 lg:ml-0">
           <span class="mb-1">Title/Name</span>
           <input
             type="text"
             placeholder="Campaign Title/Name"
-            class="block select-field"
+            class="block select-field w-[380px] h-[40px] lg:w-[648px] lg:h-[40px]"
           />
         </label>
-        <label class="block">
+        <label class="block ml-4 lg:ml-0">
           <span class="mb-1">Description</span>
           <textarea
             type="text"
             placeholder="Campaign Title/Name"
-            class="block textarea textarea-bordered textarea-lg textarea-field"
+            class="block textarea textarea-bordered textarea-lg textarea-field w-[380px] lg:w-[648px]"
           ></textarea>
         </label>
       </form>
       <div class="py-6 max-w-[648px]">
-        <h2 class="py-2">Choose a package</h2>
-        <div class="grid grid-cols-1 lg:grid-cols-3">
-          <div class="package-div border text-center">
-            <div class="flex flex-row space-x-10">
-              <input type="radio" name="radio-1" class="radio" />
+        <h2 class="py-2 ml-32 lg:ml-0">Choose a package</h2>
+        <div class="grid grid-cols-1 lg:grid-cols-3 sm:ml-4 lg:ml-0 gap-2">
+          <div
+            class="package-div border text-center w-[280px] lg:w-full ml-16 lg:ml-0"
+          >
+            <div class="">
+              <!-- <input type="radio" name="radio-1" class="radio" /> -->
               <span
                 class="block text-md text-center font-medium tracking-widest dark:text-violet-400"
                 >Small</span
@@ -87,9 +95,11 @@
             <h2 class="text-xl font-semibold tracking-wide">$120 USD</h2>
             <p>7 Days</p>
           </div>
-          <div class="package-div border text-center">
-            <div class="flex flex-row space-x-10">
-              <input type="radio" name="radio-1" class="radio" checked />
+          <div
+            class="package-div border text-center w-[280px] lg:w-full ml-16 lg:ml-0"
+          >
+            <div class="">
+              <!-- <input type="radio" name="radio-1" class="radio" checked /> -->
               <span
                 class="block text-md text-center font-medium tracking-widest dark:text-violet-400"
                 >Medium</span
@@ -99,9 +109,11 @@
             <h2 class="text-xl font-semibold tracking-wide">$200 USD</h2>
             <p>15 Days</p>
           </div>
-          <div class="package-div border text-center">
-            <div class="flex flex-row space-x-10">
-              <input type="radio" name="radio-1" class="radio" />
+          <div
+            class="package-div border text-center w-[280px] lg:w-full ml-16 lg:ml-0"
+          >
+            <div class="">
+              <!-- <input type="radio" name="radio-1" class="radio" /> -->
               <span
                 class="block text-md text-center font-medium tracking-widest dark:text-violet-400"
                 >Large</span
@@ -113,7 +125,9 @@
           </div>
         </div>
       </div>
-      <button class="flex flex-row items-center button">Place Order</button>
+      <button class="flex flex-row items-center ml-36 lg:ml-0 button">
+        Place Order
+      </button>
     </section>
   </body>
 </html>
