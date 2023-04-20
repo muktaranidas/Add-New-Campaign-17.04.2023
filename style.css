@@ -48,9 +48,11 @@
 .package-card:has(input:checked) {
   border: 2px solid blue;
 }
-.package-card.icon {
+.package-card .radio-icon {
   visibility: hidden;
+  opacity: 0;
 }
-.package-card:has(input:checked).icon {
+.package-card:has(input:checked) .radio-icon {
   visibility: visible;
+  opacity: 1;
 }
