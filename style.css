@@ -3,8 +3,7 @@
 }
 
 .add-new-campaign {
-  width: 944px;
-  height: 24px;
+
   font-style: normal;
   font-weight: 600;
   font-size: 18px;
@@ -39,8 +38,6 @@
 .button {
   padding: 12px 24px;
   gap: 12px;
-  width: 139px;
-  height: 48px;
   background: #0a65cc;
   border-radius: 3px;
   color: white;
